@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotating Images</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#dashboard"><h2>Dashboard</h2> </a>
+        <div class="navbar-right">
+            <a href="#news"><h3>News and Updates</h3> </a>
+          <a href="#lessons" ><h3>Lessons</h3> </a>
+          <a href="#contact"> <h3>Contact Us</h3> </a>
+          <a href="#about"> <h3>About Us</h3> </a>
+          <a href="#quiz"> <h3>Quiz</h3> </a>
+        </div>
+      </div>
+
+      <div class="carousel-container">
+    <div class="carousel">
+      <div class="image-container">
+        <img src="https://images.homify.com/image/upload/a_0,c_fill,f_auto,h_900,q_auto,w_1920/v1464428850/p/photo/image/1526892/LPSC_1_1.jpg  " alt="Image 1" height="680px" width="1530px">
+        <button class="prev-button">‹</button>
+        <button class="next-button">›</button>
+        <div class="image-overlay">
+            <a href="p1.html"> <h1>ISRO UPCOMING MISSIONS</h1></a>
+          </div>
+      </div>
+      <div class="image-container">
+        <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/03/esa_hq_mario_nikis/24762890-2-eng-GB/ESA_HQ_Mario_Nikis_pillars.jpg  " alt="Image 2" height="680px" width="1530px">
+        <button class="prev-button">‹</button>
+        <button class="next-button">›</button>
+        <div class="image-overlay">
+            <a href="https://earth.esa.int/eogateway"> <h1 >UNITED STATE UPCOMING MISSIONS</h1> </a>
+          </div>
+      </div>
+      <div class="image-container">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/55929740781267.578d33c65c9d6.jpg " alt="Image 3"  height="680px" width="1530px">
+        <button class="prev-button">‹</button>
+        <button class="next-button">›</button>
+        <div class="image-overlay">
+            <a href="p1.html"><h1>ROSCOSMOS UPCOMING MISSIONS</h1></a>
+          </div>
+      </div>
+
+      <div class="image-container">
+        <img src="https://media.gettyimages.com/id/79617159/photo/nasa-prepares-to-launch-space-shuttle-atlantis.jpg?s=2048x2048&w=gi&k=20&c=8Ll1G5wrFteTOOridBM-8jWA4lJWMTE0qVzNUxxavfs=" alt="Image 3"  height="680px" width="1530px">
+        <button class="prev-button">‹</button>
+        <button class="next-button">›</button>
+        <div class="image-overlay">
+            <a href="nasa_api1.html"><h1>NASA UPCOMING MISSIONS</h1></a>
+          </div>
+      </div>
+
+      <div class="image-container">
+        <img src="https://dongfanghour.com/wp-content/uploads/2021/09/ChinaSat-Tower-Outside-1024x576.png  " alt="Image 3"  height="680px" width="1530px">
+        <!-- <a href=""><h1>HELLO</h1></a> -->
+        <button class="prev-button">‹</button>
+        <button class="next-button">›</button>
+        <div class="image-overlay">
+            <a href="p1.html">  <h1>CNSA UPCOMING MISSIONS</h1></a>
+          </div>
+      </div>
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+
+
+  <section id="news"  >
+
+
+            <h1>News and Updates</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dicta ipsa aliquid numquam tempora harum rem laboriosam molestiae aspernatur debitis accusamus voluptate nulla magni, hic doloribus eos voluptatibus. Neque enim a doloremque animi autem quos consectetur sapiente aperiam eligendi aspernatur.</p>
+            <div id="news-container"></div>
+          <a  href="news.html">  <h1>Know more about news and updates</h1>  </a>
+       
+
+  </section>
+  <section id="lessons"  >
+            <h1>lessons</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dicta ipsa aliquid numquam tempora harum rem laboriosam molestiae aspernatur debitis accusamus voluptate nulla magni, hic doloribus eos voluptatibus. Neque enim a doloremque animi autem quos consectetur sapiente aperiam eligendi aspernatur.</p>
+  </section>
+ 
+<!-- // contact page -->
+
+<header id="contact">
+  
+  <h1>Contact Us</h1>
+</header>
+<main>
+  <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+  </form>
+</main>
+
+
+<!-- about us -->
+
+<section id="about"  >
+
+
+  <h1>About Us</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dicta ipsa aliquid numquam tempora harum rem laboriosam molestiae aspernatur debitis accusamus voluptate nulla magni, hic doloribus eos voluptatibus. Neque enim a doloremque animi autem quos consectetur sapiente aperiam eligendi aspernatur.</p>
+  
+
+
+
+</section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
